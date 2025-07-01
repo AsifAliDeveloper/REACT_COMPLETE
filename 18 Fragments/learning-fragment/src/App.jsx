@@ -3,7 +3,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 function App() {
-  let foodItems = ["Dal", "vegetables", "Roti", "Slad", "Milk", "Ghee"];
+  // let foodItems = ["Dal", "vegetables", "Roti", "Slad", "Milk", "Ghee"];
+  let foodItems = [];
+  if (foodItems.length === 0) {
+    return <h3>I am Still hungray.</h3>;
+  }
 
   return (
     <React.Fragment>
