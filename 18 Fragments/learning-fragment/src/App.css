@@ -1,3 +1,13 @@
-/* div{
-  background-color: blue;
-} */
+.food-heading{
+  background-color: skyblue;
+  color: brown;
+}
+
+.r-item{
+  background-color: khaki;
+}
+
+.r-span{
+  font-weight: 500;
+  color: orangered
+}
